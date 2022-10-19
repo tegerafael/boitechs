@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/menuVertical.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Calligraffitti" rel="stylesheet">
+    <title>Boitech</title>
+    <link rel="icon" type="imagem/png" href="img/iconsite.png" />
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Boitech</h1>
+        <p>Pesagem de gado sem balança</p>
+    </header>
+    <section class="linha">
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="#" class="ativa">Tópicos</a></li>
+                    <li><a href="#">
+                            <span class="material-icons">home</span>
+                            Home
+                        </a></li>
+                    <li><a href="#1-introducao">1. Introdução</a>
+                        <ul>
+                            <li><a href="#11-finalidade">1.1 Finalidade</a></li>
+                            <li><a href="#12-escopo">1.2 Escopo</a></li>
+                            <li><a href="#13-definicao">1.3 Definições, Acrônimos e Abreviações</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#2-referencias">2. Referências</a></li>
+
+                    <li><a href="#3-visaogeral">3. Visão Geral</a></li>
+
+                    <li><a href="#4-posicionamento">4. Posicionamento</a></li>
+                    <li><a href="#41-oportunidade">4.1 Oportunidade de Negócios</a></li>
+                    <li><a href="#42-descricao">4.2 Descrição do Problema</a></li>
+                    <li><a href="#43-sentenca">4.3 Sentença de Posição do Produto</a></li>
+
+                    <li><a href="#5-descricoes">5. Descrições dos Envolvidos e dos Usuários</a></li>
+                    <li><a href="#51-resumo">5.1 Resumo dos Envolvidos</a></li>
+                    <li><a href="#52-resumo">5.2 Resumo dos Usuários</a></li>
+                    <li><a href="#53-perfis">5.3 Perfis dos Envolvidos</a></li>
+                    <li><a href="#531-equipe">5.3.1 Equipe de Desenvolvedores</a></li>
+                    <li><a href="#532-equipe">5.3.2 Equipe de Gestores</a></li>
+
+                    <li><a href="#6-alternativas">6. Alternativas e Concorrência</a></li>
+                    <li><a href="#61-olho">6.1 Olho do Dono</a></li>
+                    <li><a href="#62-empresa">6.2 Empresa Z-Tecs Zootecnia Inteligente</a></li>
+
+                    <li><a href="#7-visao">7. Visão Geral do Produto</a></li>
+                    <li><a href="#71-perspectiva">7.1 Perspectiva do Produto</a></li>
+
+                    <li><a href="#8-requisitos">8. Requisitos Funcionais e não Funcionais</a></li>
+                    <li><a href="#81-efetuar">8.1 Efetuar Login</a></li>
+                    <li><a href="#82-cadastrar">8.2 Cadastrar Usuários</a></li>
+                    <li><a href="#83-cadastrar">8.3 Cadastrar Fazendas</a></li>
+                    <li><a href="#84-cadastrar">8.4 Cadastrar Lotes</a></li>
+                    <li><a href="#85-cadastrar">8.5 Cadastrar Animais</a></li>
+                    <li><a href="#86-cadastrar">8.6 Cadastrar Solicitações</a></li>
+                    <li><a href="#87-consultar">8.7 Consultar Usuários</a></li>
+                    <li><a href="#88-consultar">8.8 Consultar Fazendas</a></li>
+                    <li><a href="#89-consultar">8.9 Consultar Lotes</a></li>
+                    <li><a href="#810-consultar">8.10 Consultar Animais</a></li>
+                    <li><a href="#811-consultar">8.11 Consultar Solicitações</a></li>
+                    <li><a href="#812-dash">8.12 DashBoard Geral</a></li>
+
+                    <li><a href="#9-restricoes">9. Restrições</a></li>
+
+                    <li><a href="#10-requisitos">10. Requisitos de Qualidade</a></li>
+
+                    <li><a href="#11-postmortem">11. PostMortem</a></li>
+                    <li><a href="#111-pontos">11.1 Pontos Positivos</a></li>
+                    <li><a href="#112-pontos">11.2 Pontos Negativos</a></li>
+
+                    <li><a href="#12">12. Mapa de Telas</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="conteudo">
+            <h3 id="1-introducao">1. Introdução </h3>
+            <p>Este documento visa o entendimento geral do projeto ao definir as necessidades para o desenvolvimento do
+                módulo BoiTech, referindo-se a um sistema que facilita a pesagem de animais bovinos através da
+                integração do aplicativo com o drone de reconhecimento dos animais. As informações aqui presentes são
+                com alto nível de abstração, buscando que a compreensão sobre o sistema seja simples e prática.
+            </p>
+
+            <h3 id="11-finalidade">1.1 Finalidade </h3>
+            <p>Este documento permitirá uma visão mútua e de simples entendimento a todos os leitores interessados no
+                projeto BoiTech.
+            </p>
+
+            <h3 id="12-escopo">1.2 Escopo </h3>
+            <p>Será demonstrado os requisitos necessários para a concepção, produção e implantação do projeto, para que
+                seja entendido por todos os leitores interessados.
+            </p>
+
+            <h3 id="13-definicao">1.3 Definições, Acrônimos e Abreviações </h3>
+            <p>Abaixo segue os conceitos para melhor entendimento deste documento: <br>
+                IFRO - Instituto Federal de Rondônia; <br>
+                TI - Tecnologia da Informação; <br>
+                3D - Tridimensional;
+            </p>
+
+            <h3 id="2-referencias">2. Referências </h3>
+            <p>
+                WATANABE, André Hiroshi Quadros; MANCHINI, Heloise; MARÇAL, Wilmar Sachetin. Comparação do peso corporal
+                obtido através de pesagem em balança digital ou fita torácica de pesagem em nelores machos. Pubvet, v.
+                11, p. 424-537, 2017.
+                <br>
+                <br>
+                IDARON (RO). IDARON. Volume de exportação de carne bovina de Rondônia aponta para novo recorde em 2022.
+                In: Volume de exportação de carne bovina de Rondônia aponta para novo recorde em 2022. 1. Porto Velho -
+                Rondônia, 7 set. 2022. Disponível em:
+                http://www.idaron.ro.gov.br/index.php/2022/04/07/volume-de-exportacao-de-carne-bovina-de-rondonia-aponta-paEMBRAPA.
+                CARACTERIZAÇÃO DA PECUÁRIA EM RONDÔNIA.
+                <br>
+                <br>
+                CARACTERIZAÇÃO DA PECUÁRIA EM RONDÔNIA, [S. l.], n. 1, p. 10-37, 11 jul. 2022. Disponível em:
+                https://www.alice.cnptia.embrapa.br/bitstream/doc/1136523/1/cpafro-18627.pdf. Acesso em: 30 set.
+                2022.ra-novo-recorde-em-2022/. Acesso em: 7 abr. 2022.
+                <br>
+                <br>
+                UFMJ. Cenários para a pecuária: Rondônia. In: Cenários para a pecuária. 1. ed. [S. l.], 11 jul. 2022.
+                Disponível em: https://csr.ufmg.br/pecuaria/portfolio-item/rondonia/. Acesso em: 30 set. 2022.
+                <br>
+                <br>
+                CANADIAN JOURNAL OF ANIMAL SCIENCE. Electronic identification: Applications in beef production and
+                research. Canadian Journal of Animal Science, Canadá, v. 80, n. 3, p. 1, 8 set. 2000. DOI
+                https://doi.org/10.4141/A99-099. Disponível em:
+                https://cdnsciencepub.com/doi/abs/10.4141/A99-099#abstract-fr. Acesso em: 30 set. 2022.
+                <br>
+                <br>
+                GUARDIA, G. IARPJe: Automação de processos no TRF1 para o Auxílio Emergencial, [s. l.], 1 jan. 2022.
+            </p>
+
+            <h3 id="3-visaogeral">3. Visão Geral </h3>
+            <p>
+                Atualmente o processo de pesagem dos animais bovinos na pecuária de corte é feito através do manejo,
+                onde o animal é conduzido ao curral. Quando o proprietário não possui um local adequado para a pesagem,
+                é necessário a realocação dos animais para uma propriedade vizinha, gerando custo e possíveis danos aos
+                animais, caso o proprietário tenha o local apropriado para a pesagem o custo será reduzido, porém a
+                possibilidade de danos continua pois ainda é necessário fazer a condução do animal, após o manejo até o
+                curral o animal entra em balanças manuais ou eletrônicas que efetuarão a pesagem, caso o peso seja
+                adequado o animal é selecionado e ficará separado, caso contrário o animal é devolvido ao pasto. Com os
+                animais aptos para abate o proprietário começa a fazer contato com os frigoríficos para solicitação de
+                valores, após a seleção o gado é embarcado e enviado para análise, após o recebimento dos animais caso
+                haja algum animal irregular para abate, esse animal será devolvido ao proprietário, resultando em mais
+                danos e custos. <br>
+                A identificação individual dos animais com a utilização do RFID integrado com o sistema permite que o
+                usuário tenha controle total dos animais por meio de relatórios, visto que hoje em dia o animal é pesado
+                e não identificado, sendo impossível analisar a evolução.
+
+            </p>
+
+            <h3 id="4-posicionamento">4. Posicionamento</h3>
+
+            <h3 id="41-oportunidade">4.1 Oportunidade de Negócios</h3>
+            <p>Com o crescimento da pecuária de corte no Brasil e a implementação cada vez mais notória da Ti Verde,
+                torna-se necessária a utilização de equipamentos que facilitem o processo de engorda dos animais. Sendo
+                assim, o BoiTech visa a agilidade e a segurança no processo de pesagem do gado com o objetivo de
+                assegurar que o proprietário tenha o controle de todos os animais inseridos no pasto.
+            </p>
+
+            <h3 id="42-descricao">4.2 Descrição do Problema</h3>
+            <p><img src="img/problema.JPG" alt="width 200"></p>
+
+            <h3 id="43-sentenca">4.3 Sentença de Posição do Produto</h3>
+            <p><img src="img/sentenca.JPG" alt="width 200"></p>
+
+            <h3 id="5-descricoes">5. Descrições dos Envolvidos e dos Usuários</h3>
+
+            <h3 id="51-resumo">5.1 Resumo dos Envolvidos</h3>
+            <p><img src="img/resumo.JPG" alt="width 200"></p>
+
+            <h3 id="52-resumo">5.2 Resumo dos Usuários</h3>
+            <p><img src="img/resumou.JPG" alt="width 200"></p>
+
+            <h3 id="53-perfis">5.3 Perfis dos Envolvidos</h3>
+
+            <h3 id="531-equipe">5.3.1 Equipe de Desenvolvedores</h3>
+            <p><img src="img/equipe.JPG" alt="width 200"></p>
+
+            <h3 id="532-equipe">5.3.2 Equipe de Gestores</h3>
+            <p><img src="img/equipeg.JPG" alt="width 200"></p>
+
+            <h3 id="6-alternativas">6. Alternativas e Concorrência</h3>
+
+            <h3 id="61-olho">6.1 Olho do Dono</h3>
+            <p><img src="img/olhodono.JPG" alt="width 200"></p>
+            <p>A tecnologia Olho do Dono tem como objetivo utilizar câmera 3D com auxílio de algoritmos e inteligência
+                artificial para facilitar a pesagem de animais sem a utilização de balanças convencionais, assim
+                reduzindo o estresse do animal.
+            </p>
+
+            <h3 id="62-empresa">6.2 Empresa Z-Tecs Zootecnia Inteligente</h3>
+            <p><img src="img/ztech.JPG" alt="width 200"></p>
+            <p>A empresa Z-Tecs Zootecnia Inteligente utiliza câmera 3D disposta em áreas de passagem, alimentação ou
+                bebedouro, o sistema coleta imagens dos animais, e por meio da aplicação de algoritmos e inteligência
+                artificial, a pesagem dos animais é efetuada.
+                <br> Além disso, por meio de dispositivo do tipo RFID, os animais são identificados, permitindo
+                assinalar as
+                informações de pesagem de forma individual.
+            </p>
+            <p><img src="img/boisup.JPG" alt="width 200"></p>
+
+            <h3 id="7-visao">7. Visão Geral do Produto</h3>
+
+            <h3 id="71-perspectiva">7.1 Perspectiva do Produto</h3>
+            <p>O BoiTech irá ajudar toda a pecuária de corte interessada em facilitar o processo de pesagem dos animais.
+                O produto fornecerá ao usuário a possibilidade de gerar relatórios através de um DashBoard totalmente
+                personalizado, para melhor gerenciar os animais cadastrados.
+            </p>
+
+            <h3 id="8-requisitos">8. Requisitos Funcionais e não Funcionais</h3>
+            <p>Após a fase de levantamento de requisitos, foram identificados e coletados os seguintes requisitos para o
+                software:
+            </p>
+            <h4 id="81-efetuar">8.1 Efetuar Login</h4>
+            <p><img src="img/login.JPG" alt="width 200"></p>
+            <h4 id="82-cadastrar">8.2 Cadastrar Usuários</h4>
+            <p><img src="img/usuario.JPG" alt="width 200"></p>
+            <h4 id="83-cadastrar">8.3 Cadastrar Fazendas</h4>
+            <p><img src="img/fazendas.JPG" alt="width 200"></p>
+            <h4 id="84-cadastrar">8.4 Cadastrar Lotes</h4>
+            <p><img src="img/lote.JPG" alt="width 200"></p>
+            <h4 id="85-cadastrar">8.5 Cadastrar Animais</h4>
+            <P><img src="img/animal.JPG" alt="width 200"></P>
+            <h4 id="86-cadastrar">8.6 Cadastrar Solicitações</h4>
+            <p><img src="img/solicitacao.JPG" alt="width 200"></p>
+            <h4 id="87-consultar">8.7 Consultar Usuários</h4>
+            <p><img src="img/cusuario.JPG" alt="width 200"></p>
+            <h4 id="88-consultar">8.8 Consultar Fazendas</h4>
+            <p><img src="img/cfazenda.JPG" alt="width 200"></p>
+            <h4 id="89-consultar">8.9 Consultar Lotes</h4>
+            <p><img src="img/clote.JPG" alt="width 200"></p>
+            <h4 id="810-consultar">8.10 Consultar Animais</h4>
+            <p><img src="img/canimais.JPG" alt="width 200"></p>
+            <h4 id="811-consultar">8.11 Consultar Solicitações</h4>
+            <p><img src="img/csolicitacao.JPG" alt="width 200"></p>
+            <h4 id="812-dash">8.12 DashBoard Geral</h4>
+            <p><img src="img/dash.JPG" alt="width 200"></p>
+
+            <h3 id="9-restricoes">9. Restrições</h3>
+            <p>
+                <li>O projeto não será capaz de armazenar as informações automaticamente no banco de dados. </li>
+                <li>A documentação do sistema será toda escrita em português. </li>
+                <li>O drone não poderá ultrapassar o limite de altitude imposto pelos programadores do projeto.</li>
+            </p>
+
+            <h3 id="10-requisitos">10. Requisitos de Qualidade </h3>
+            <p>A ISO nº 9126 determina uma série de requisitos de qualidade de software que um software a ser construído
+                pode abranger. Esses requisitos de qualidade abrangem aspectos internos do software como linguagens,
+                códigos, classes, etc. Assim como os aspectos externos do software como a interface da função, botões,
+                cores, entre outras. A seguir a Figura 01 exemplifica quais são os requisitos de qualidade do software
+                divididos por áreas. <br>
+                Figura 01: Requisitos de Qualidade Interna e Externa
+            </p>
+            <p><img src="img/requisitos.JPG" alt="width 200"> <br> Fonte: ISO 9126</p><br>
+            <p>A partir da ISO 9126 o produto deverá atender aos seguintes requisitos de qualidade: <br>
+                <li>A utilização será feita através de uma interface gráfica moderna, de fácil entendimento, com ícones
+                    interativos e auto-explicativos de acordo com os padrões de designer atual (Usabilidade -
+                    Atratividade);</li>
+                <li>A usabilidade do sistema será fácil e rápida para oferecer melhor agilidade no atendimento ao
+                    cliente,
+                    terá ícones de fácil acesso e fontes de tamanho adequado a cada usuário (Usabilidade -
+                    Operacionalidade);</li>
+                <li>As interfaces do sistema deverão ser completamente responsivas, assim a interface deverá se adequar
+                    ao
+                    tamanho da resolução do monitor (Funcionalidade - Adequação);</li>
+                <li>O software será testado de diversas formas para que o risco de falhas seja minimizado
+                    consideravelmente
+                    (Confiabilidade - Maturidade);</li>
+                <li>Estando com o serviço de backup, o sistema é capaz de recuperar dados caso haja falhas no sistema,
+                    queda
+                    de energia, entre outros (Confiabilidade - Recuperabilidade);</li>
+                <li>Será de fácil aprendizado, contando com um treinamento rápido e conciso ao usuário operá-lo e
+                    controlá-lo (Usabilidade - Operacionalidade);</li>
+                <li>O sistema terá capacidade de proteger informações e dados, de forma que pessoas ou sistemas não
+                    autorizados não possam lê-los nem modificá-los e que não seja negado o acesso às pessoas ou sistemas
+                    autorizados (Funcionalidade - Segurança de acesso);</li>
+                <li>Caso haja alguma falha no sistema, este indicará de forma clara e objetiva ao usuário, e dará as
+                    devidas
+                    instruções (Confiabilidade - Tolerância a falhas);</li>
+                <li>No caso do sistema identificar alguma falha, dará a devida instrução, podendo assim, possibilitar
+                    que
+                    algumas falhas sejam solucionadas pelo próprio usuário sem que deva comunicar o suporte
+                    (Manutenibilidade - Analisabilidade);</li>
+                <li>Com a ajuda das tecnologias utilizadas para desenvolvimento, os riscos de bugs devido à alterações
+                    são
+                    consideravelmente minimizados, garantindo a estabilidade do sistema (Confiabilidade - Maturidade);
+                </li>
+                <li>A cada alteração feita pelo time de desenvolvimento, um outro time de testadores realiza os testes
+                    necessários no sistema, e o sistema será desenvolvido para que estes testes sejam possibilitados de
+                    forma fácil (Manutenibilidade - Testabilidade);</li>
+                <li>O sistema tem o objetivo de ser para plataforma desktop, mas caso haja o interesse da organização e
+                    do
+                    cliente, é possível que seja adaptado para outros ambientes (Portabilidade - Adaptabilidade).</li>
+            </p>
+
+            <h3 id="11-postmortem">11. PostMortem</h3>
+            <p>Com o encerramento da disciplina de Tecnologia da Informação e Meio Ambiente, o documento visa levantar
+                ideias para o desenvolvimento do mesmo.
+            </p>
+
+            <h3 id="111-pontos">11.1 Pontos Positivos</h3>
+            <p>
+                <li>A equipe soube se organizar;</li>
+                <li>Os membros foram comprometidos e dedicados;</li>
+                <li>Os membros interagiram bem entre si, sabendo discutir as diferenças de opiniões sem gerar desavenças
+                    na
+                    equipe;</li>
+                <li>Os membros conseguiram adquirir muito conhecimento em pouco tempo, aprendendo principalmente a
+                    pesquisar
+                    quando não se tem conhecimento suficiente para executar determinada tarefa;</li>
+                <li>Os membros aprenderam que a formação profissional não está somente no conteúdo passado em sala de
+                    aula,
+                    mas também em outras fontes de conhecimento;</li>
+                <li>A equipe conseguiu entregar boa parte do proposto mesmo com a ocasional indisponibilidade de alguns
+                    membros;</li>
+                Todos da equipe de MDS foram Scrum Master durante alguma sprint;</li>
+                <li>Reunir os membros da equipe para trabalhar juntos em um mesmo ambiente, mesmo que em issues
+                    diferentes,
+                    melhorou bastante a produtividade da equipe pois problemas simples eram identificados e resolvidos
+                    mais
+                    rápido.</li>
+            </p>
+
+            <h3 id="112-pontos">11.2 Pontos Negativos</h3>
+            <p>
+                <li>No início do projeto tivemos alguns problemas para entender o rumo que o projeto seguiria;</li>
+                <li>A equipe no início se demonstrou muito instigada para progredir no projeto, porém após algumas
+                    semanas houve um desânimo causando lentidão na continuidade do projeto;</li>
+                <li>A equipe teve dificuldade em conciliar o projeto BoiTech com outros projetos do IFRO;</li>
+                <li>Atraso no cumprimento de metas designadas pelos gestores;</li>
+                <li>Indisponibilidade de alguns membros;</li>
+                <li>Indecisão para seguimento do projeto, dificultando a agilidade na construção do mesmo;</li>
+                <li>Dificuldade para elaborar a parte escrita do projeto.</li>
+            </p>
+
+            <h3 id="12-mapa">12. Mapa de Telas</h3>
+            <p><img src="img/mapa.png" alt="width 200"></p>
+
+            <h3 id="13">13. Apresentação</h3>
+            <h4>Identidade Visual</h4>
+            <p>
+                <iframe
+                    src="https://docs.google.com/presentation/d/e/2PACX-1vQGN9zINgh4QElmS5Wq4MG-zRwBlFsGIQhVufEIJGD5Uf5RflQ0FsSTrrvxCAlqTJGQ-EPO4S4ZEkxh/embed?start=false&loop=false&delayms=3000"
+                    frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"
+                    webkitallowfullscreen="true"></iframe>
+            </p>
+            <h4>Apresentação</h4>
+            <p>
+                <iframe
+                    src="https://docs.google.com/presentation/d/e/2PACX-1vRUKXBEr-de1f7RzykvBTVijKWJj6bHxPZf81ID8Vlq3wVviYxkpYsV9XoHkKgEHIz19G2j1O-wHVFj/embed?start=false&loop=false&delayms=3000"
+                    frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"
+                    webkitallowfullscreen="true"></iframe>
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h4>DISCENTES: <br>
+            JACKELINE NEIVA DOS SANTOS <br>
+            MATEUS HENRIQUE MIGUEL MARIANO <br>
+            MATHEUS FRANÇA DA CUNHA <br>
+            THALYS ALVES BRAGA <br>
+            TIAGO RAFAEL OLIVEIRA DAS VIRGENS <br>
+            VINICIUS CARVALHO SIQUEIRA TOMAZ 
+            <br>
+            <br>
+
+            DOCENTE: <br>
+            ILMA RODRIGUES DE SOUZA FAUSTO
+        </h4>
+    </footer>
+</body>
+
+</html>
